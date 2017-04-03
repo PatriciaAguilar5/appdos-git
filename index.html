@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda aplicacion</title>
+
+<!--grupo css -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/tema-app1.min.css"
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="../js/acciones.js"></script>
+<script src="../phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/descarga.jpg','imagenes/celular2.jpg','imagenes/celular4.jpg','imagenes/celular6.jpg','imagenes/celularmmre.jpg','imagenes/nokiare.jpg','imagenes/huawei.jpg')">
+<div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> Telefonia celular en Mexico </h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/celular.jpg" alt="celular" title="celular" id="wows1_0"/></li>
+		<li><img src="data1/images/celular1.jpg" alt="celular1" title="celular1" id="wows1_1"/></li>
+		<li><img src="data1/images/celular2.jpg" alt="celular2" title="celular2" id="wows1_2"/></li>
+		<li><img src="data1/images/celular3.jpg" alt="celular3" title="celular3" id="wows1_3"/></li>
+		<li><img src="data1/images/celular4.jpg" alt="celular4" title="celular4" id="wows1_4"/></li>
+		<li><img src="data1/images/celular5.jpg" alt="celular5" title="celular5" id="wows1_5"/></li>
+		<li><img src="data1/images/celular6.jpg" alt="celular6" title="celular6" id="wows1_6"/></li>
+		<li><img src="data1/images/celulares_futuro_3.jpg" alt="celulares_futuro_3" title="celulares_futuro_3" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/celulares_futuro_4.jpg" alt="cssslider" title="celulares_futuro_4" id="wows1_8"/></a></li>
+		<li><img src="data1/images/celularmm.jpg" alt="celularmm" title="celularmm" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="celular"><span><img src="data1/tooltips/celular.jpg" alt="celular"/>1</span></a>
+		<a href="#" title="celular1"><span><img src="data1/tooltips/celular1.jpg" alt="celular1"/>2</span></a>
+		<a href="#" title="celular2"><span><img src="data1/tooltips/celular2.jpg" alt="celular2"/>3</span></a>
+		<a href="#" title="celular3"><span><img src="data1/tooltips/celular3.jpg" alt="celular3"/>4</span></a>
+		<a href="#" title="celular4"><span><img src="data1/tooltips/celular4.jpg" alt="celular4"/>5</span></a>
+		<a href="#" title="celular5"><span><img src="data1/tooltips/celular5.jpg" alt="celular5"/>6</span></a>
+		<a href="#" title="celular6"><span><img src="data1/tooltips/celular6.jpg" alt="celular6"/>7</span></a>
+		<a href="#" title="celulares_futuro_3"><span><img src="data1/tooltips/celulares_futuro_3.jpg" alt="celulares_futuro_3"/>8</span></a>
+		<a href="#" title="celulares_futuro_4"><span><img src="data1/tooltips/celulares_futuro_4.jpg" alt="celulares_futuro_4"/>9</span></a>
+		<a href="#" title="celularmm"><span><img src="data1/tooltips/celularmm.jpg" alt="celularmm"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> TELEFONO CELULAR </h1>
+   <div>
+   <p>imagen del telefono</p>
+   <br>
+   </div>
+   <div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/descarga.jpg',1)"><img src="imagenes/celular.jpg" width="800" height="800" id="Image5"></a> </div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> DEFINICION </h2>
+       <p>Que es el telefono celular
+        </p>
+       </a>
+      </li>
+       <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>HISTORIA DEL TELEFONO CELULAR</h2>
+      <p>Se muestra la histroia</p>
+    </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>CLASIFICACION DE LOS TELEFONOS CELULARES</h2>
+    <p>Clasifica los telefonos</p>
+   </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>COMPAÑIAS QUE OFRECEN EL SERVICIO CELULAR EN MEXICO</h2>
+   <p>Compañias en Mexico</p>
+  </a>
+ </li>
+ <li class=ui-first-child ui-last-child">
+  <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>TELEFONOS DEL FUTURO</h2>
+   <p>Proximos celulares que saldran</p>
+   </a>
+  </li>
+  </ul>
+ </div>
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/logo.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion uno</h4>
+     <h4>Rosa Patricia Aguilar Sandoval</h4>
+    </div>
+  </div>
+</div>
+<div data-role="page"  id="Pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> Defincion </h1>
+    </div>
+    
+   <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Celular1 </h1>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/celular2.jpg',1)"><img src="imagenes/celular1.jpg" width="250" height="202" id="Image6"></a> </div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> Celular2 </h1>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/celular4.jpg',1)"><img src="imagenes/celular3.jpg" width="225" height="225" id="Image7"></a> </div>
+   </div>
+<p>Aparato telefónico de pequeño tamaño, portátil, sin hilos ni cables externos, para poder hablar desde cualquier lugar, siempre que sea dentro del área de cobertura del servicio que lo         facilita.Los teléfonos móviles son usados para una variedad de propósitos, tales como mantener el contacto con miembros de la familia, conducir negocios, y con el fin de tener acceso a un teléfono en el caso de una emergencia. Algunas personas llevan más de un teléfono móvil para diferentes propósitos, tales como para uso comercial y personal.
+</p>
+   
+<div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion dos, RPAS </h4>
+     </div>
+     </div>
+    </div>
+    <div data-role="page"  id="Pagina2" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> Defincion </h1>
+    </div>
+    
+   <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Celular1 </h1>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/celularmmre.jpg',1)"><img src="imagenes/celularmm.jpg" width="166" height="194" id="Image10"></a> </div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> Celular2 </h1>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/nokiare.jpg',1)"><img src="imagenes/nokiaap.jpg" width="300" height="168" id="Image11"></a>
+   </div>
+   </div>
+<P>Primeras etapas de la ingeniería de radio, se concibió un servicio de radio móvil de mano. En 1917, el inventor finlandés Eric Tigerstedt presentó una patente para un "Teléfono plegable de   bolsillo con un micrófono de carbono muy delgado". El primer teléfono celular de mano fue presentado por Motorola en 1973. La primera red celular automatizada comercial fue lanzada en Japón por    Nippon Telegraph and Telephone en 1979. Esto fue seguido en 1981 por el lanzamiento simultáneo del sistema de Telefonía Móvil Nórdica (NMT) en Dinamarca, Finlandia, Noruega y Suecia.
+</p>
+ 
+ <div data-role="footer" data-theme="b" data-position="fixed">
+     <h4> Aplicacion dos, RPAS </h4>
+     </div>
+</div>
+    </div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>CLASIFICACION DEL TELEFONO CELULAR</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>GAMA ALTA</h1>
+   <p>ofrece todas (o casi todas) las funciones disponibles en el mercado a la fecha y todo en muy alta calidad y a un alto costo  </p>
+   <img src="imagenes/huaweipGA.jpg" 500px>
+   <p>HUAWEI PG4 </p>
+   <p>Pantalla 5.2", 1080 x 1920 pixels
+Procesador Kirin 955 2GHz, 3GB/4GB RAM
+32GB/64GB, microSD
+Cámara 12 MP, Dual
+Batería 3000 mAh
+Android 6.0.1
+Perfil: 7 mm, 144 g</p>
+   </div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> GAMA MEDIA   </h1>
+   <p> tiene funciones básicas y muchas de las funciones de los de gama alta pero a un costo relativamente accesible. </p>
+   <img src="imagenes/MotozGA.jpg" 500px>
+   <p>Moto G4 Play</p>
+   <p>Procesador	
+      Memoria	2 GB	
+      Almacenamiento	
+      Batería	2800 mAh</p>
+      </div>
+    <div data-role="collapsible" data-content-theme="false">
+   <h1> GAMA BAJA</h1>
+   <p>Es un celular que solo sirve para llamar y recibir llamada, enviar y recibir sms, poco almacenamiento, pocas aplicaciones, adroid</p>
+   <img src="imagenes/motogturbo.jpg" 500px>
+   <p>Moto G</p>
+   <p>–Pantalla: 5 pulgadas HD (1,280x720p)
+–Procesador: Snapdragon 615 de núcleo ocho núcleos dividido en dos módulos de 1.7Ghz y 1Ghz
+–Almacenamiento y RAM: 16GB expandible con microSD a 32GB; 2GB de RAM
+–Cámara: 13MP y frontal de 5MP
+–Batería: 2470mAh
+–Sistema operativo: Android 5.1 Lollipop actualizable a Android 6.0 Marshmallow</p>
+  
+   </div>
+   </div>
+    <div data-role="footer" data-theme="b" data-position="fixed">
+      <h4>Aplicacion Uno, RPAS</h4>
+    </div>
+</div>
+   </div> 
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>COMPAÑIAS QUE OFRECEN SERVICIO CELULAR EN MEXICO</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Compañia 1 AT&T</h1>
+   <a href="https://www.att.com.mx target="_self "> Ir a la pagina de AT&T  <img src="imagenes/at.jpg" width="181" height="278" alt="AT&amp;T"></a></div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> Compañia 2 TELCEL</h1>
+   <a href="http://www.telcel.com/" target="_self">Ir a la pagina de Telcel <img src="imagenes/telcel.jpg" width="327" height="154" alt="TELCEL"></a> </div>
+    <div data-role="collapsible" data-content-theme="false">
+   <h1> Compañia 3 MOVISTAR</h1>
+   <a href="http://www.movistar.com.mx/ target="_self">Ir a la pagina de Movistar <img src="imagenes/movistar.jpg" width="316" height="160" alt="MOVISTAR"></a></div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> Compañia 4 UNEFON</h1>
+   <a href="https://www.unefon.com.mx/ target="_self "> Ir a la pagina de Movistar <img src="imagenes/une.jpg" width="196" height="196" alt="unefon"></a>
+   </div> 
+  
+   </div>
+   </div>
+    
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>TELEFONOS DEL FUTURO</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>telefono 1</h1>
+   <img src="imagenes/nokiamon.jpg" 500px>
+   <P> NOKIA MORPH 4 </P>
+   </div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> telefono 2</h1>
+   <img src="imagenes/futuro.jpg" 500px>
+   <p>BLACK BOX</p>
+      </div>
+    <div data-role="collapsible" data-content-theme="false">
+   <h1> telefono 3</h1>
+   <img src="imagenes/celulares_futuro_3.jpg" 500px>
+   <p>NOKIA 888</p>
+     </div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> telefono 4</h1>
+   <img src="imagenes/celulares_futuro_4.jpg" 500px>
+   <p>NEC TAG</p>
+   </div>
+    
+
+</head>
+
+<body>
+</body>
+</html>
